@@ -1,0 +1,17 @@
+---
+# connection block
+- name: Installing wordpress
+  hosts: all
+  user: ec2-user
+  become: true
+  become_method: sudo 
+  roles:
+  - role: /home/ec2-user/.ansible/collections/ansible_collections/geerlingguy/php_roles
+  
+    
+  
+  
+
+
+
+  
